@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-cache-bust": "^1.4.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^3.1.0"
+  },
+  "dependencies": {
+    "@cedx/gulp-php-minify": "^9.0.0",
+    "charming": "^2.2.4",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "fontmin": "^0.9.8",
+    "gulp": "^4.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-jasmine-browser": "^3.0.2",
+    "gulp-update": "0.0.2",
+    "imagemin-jpegtran": "^5.0.2",
+    "simplex-noise": "^2.4.0"
+  }
+}

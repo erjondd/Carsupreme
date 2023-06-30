@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap");
+@import "bootstrap.min.css";
+@import "swiper.min.css";
+@import "_responsive.scss";
+@import "_variables.scss";
+@import "hompepage.scss";
+@import "aboutus.scss";
+@import "contactpage.scss";
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.module {
+  opacity: 0.1;
+}
+
+.module-ready {
+  transition: all 1s;
+  opacity: 1;
+  &:nth-child(odd) {
+    transition: all 1.5s;
+    opacity: 1;
+  }
+}
+
+.dark-background-on-scroll {
+  background-color: #262626;
+}
+
+.dark-background {
+  background-color: rgba(38, 38, 38, 0.62);
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .header-logo {
+      height: 100%;
+
+      a {
+        display: block;
+        padding: 10px 0;
+      }
+
+      img {
+        height: 60px;
+      }
+    }
+
+    .nav-items {
+      ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        line-height: 60px;
+        padding: 10px 0;
+
+        li {
+          padding-right: 20px;
+
+          a {
+            display: block;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section {
+  position: relative;
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+
+.footer-menu {
+  ul {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-top: 10px;
+
+      a {
+        display: block;
+        color: #000;
+      }
+    }
+  }
+}
+
+//Add footer to bottom
+.footer-absolute {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.footer-mobile {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
